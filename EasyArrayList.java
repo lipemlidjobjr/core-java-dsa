@@ -14,5 +14,10 @@ public class EasyArrayList {
         System.out.println("My first goal is to " + firstGoal);
 
         System.out.println("My goals are: " + goals);
+
+        System.out.println("Do I have the China goal? " + goals.contains("Work in China"));
+
+        goals.remove("Learn Java");
+        System.out.println("My goals now: " + goals);
     }
 }

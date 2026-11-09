@@ -6,10 +6,10 @@
  */
 public class Solution {
     public static void main(String[] args) {
-        String userName = "Alice";
-        int userAge = 20;
+        int itemPrice = 4, itemCount = 3, discount = 2;
+        int totalCost = itemPrice * itemCount - discount;
+        String finalMessage = "Total cost: " + totalCost;
 
-        String profileInfo = "Name: " + userName + ", Age: " + userAge;
-        System.out.println(profileInfo);
+        System.out.println(finalMessage);
     }
 }

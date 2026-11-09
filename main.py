@@ -1,4 +1,4 @@
-# This is my first Python program this month
+# Variables
 
 #Strings
 first_name = "John-Peter"

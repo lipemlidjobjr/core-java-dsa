@@ -1,9 +1,19 @@
+/**
+ * Outputs the details of a student
+*
+* @date 2026-11-10
+* @author lipemlidjobjr
+*/
 public class Main {
     public static void main(String[] args) {
-        System.out.println("I'm coding in Java and I'll work in China.");
+        String name = "LIPEMLIDJOB MBOCK Jean-Pierre Junior";
+        int age = 18;
+        double height = 5.9;
 
-        for (int i = 0; i < 4; i++) {
-            System.out.println("Grind day: " + i);
-        }
+        System.out.println("Student Details");
+        System.out.println("---------------");
+        System.out.println("Name    : " + name);
+        System.out.println("Age     : " + age);
+        System.out.println("Height  : " + height + "feet");
     }
 }

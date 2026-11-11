@@ -9,4 +9,4 @@ print(surname.upper())
 print(str(12) + "!")
 
 age = input("Age: ")
-print(age + "1")
+print(age + 1)

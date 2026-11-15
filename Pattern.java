@@ -4,7 +4,6 @@
  * @author lipemlidjob
  * @date 2026-11-14
  */
-
 public class Pattern {
     public static void main(String[ ] args) {
         int rows = 5;

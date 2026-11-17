@@ -4,3 +4,7 @@ if x > 5:
 else:
     print("small")
 print("done")
+
+age = 20
+if age >= 18:
+    print("adult")

@@ -47,3 +47,5 @@ a = 256; b = 256
 print(a is b)
 a = 1000; b = int("1000")
 print(a == b, a is b)
+
+print("Welcome to the Playground")

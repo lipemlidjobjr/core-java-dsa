@@ -5,17 +5,19 @@
  * @author lipemlidjobjr
  */
 public class Main {
+
+    // THIS IS MY FIRST JAVA PROGRAM
+
+    /*
+        This
+        is
+        a
+        multi-line
+        comment
+    */
     public static void main(String[] args) {
-        String name = "LIPEMLIDJOB MBOCK Jean-Pierre Junior";
-        int age = 18;
-        double height = 5.9;
-
-        System.out.println("Student Details");
-        System.out.println("---------------");
-        System.out.println("Name    : " + name);
-        System.out.println("Age     : " + age);
-        System.out.println("Height  : " + height + "feet");
-
-        System.out.println("She said, 'Java is easy.'");
+        System.out.println("I like pizza");
+        System.out.println("It's really good");
+        System.out.println("Buy me pizza!");
     }
 }

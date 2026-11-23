@@ -29,7 +29,7 @@ public class Main {
         int year = 2025;
         int quantity = 1;
 
-        double price = 19.99;
+        double price = 19999.99;
         double gpa = 3.5;
         double temperature = -12.5;
 
@@ -38,10 +38,8 @@ public class Main {
         char currency = '$';
 
         boolean isStudent = true;
-        boolean forsale = false;
+        boolean forSale = false;
         boolean isOnline = true;
-
-        System.out.println("isStudent");
 
         if (isStudent) {
             System.out.println("You are a student");
@@ -50,6 +48,17 @@ public class Main {
         }
 
         String name = "JP Dior";
-        System.out.println("Hello " + name);
+        String food = "spaghetti";
+        String email = "jpmbock14@gmail.com";
+        String car = "Fortuner";
+        String color = "blue";
+
+        System.out.println("Your choice is a " + color + " "+ year + " " + car);
+        System.out.println("The price is: " + currency + price);
+        if (forSale) {
+            System.out.println("There is a " + car + " for sale.");
+        } else {
+            System.out.println("The " + car + " is NOT for sale.");
+        }
     }
 }

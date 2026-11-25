@@ -1,4 +1,7 @@
-current_year = 2026
-birth_year = 2008
-current_age = current_year - birth_year
-print(current_age)
+age = 20
+print("legal age" if age >= 18 else "Not legal age")
+
+a = 7
+b = 9
+m = a if a > b else b
+print(m)
